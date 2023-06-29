@@ -1,0 +1,17 @@
+h1 {
+    font-family: Tahoma;
+}
+
+body {
+    text-align: center;
+    background-color:lavender;
+    
+}
+
+.user-input {
+    border: 5px;
+    border-style: solid;
+    padding: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
