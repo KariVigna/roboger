@@ -11,7 +11,9 @@ window.onload = function() {
         let outputArray = unfold([], inputNum).join().split(",");
         
         return outputArray.forEach(function(number) {
-            let resultDisplay = document.getElementById(result);
+            const resultDisplay = document.createElement("p");
+            resultDisplay.append(number);
+            document.body.append(resultDisplay);
             console.log(number);
             
         });
