@@ -1,11 +1,11 @@
 h1 {
     font-family: Tahoma;
+    color:slateblue;
 }
 
 body {
     text-align: center;
     background-color:lavender;
-    
 }
 
 .user-input {
@@ -14,4 +14,13 @@ body {
     padding: 10px;
     margin-left: 200px;
     margin-right: 200px;
+}
+
+.div2 {
+    border: 5px;
+    border-style: dashed;
+    padding: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 20px;
 }
