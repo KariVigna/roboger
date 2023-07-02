@@ -13,7 +13,7 @@
 
 ## Description
 
-_{This application takes an integer and returns a sequence of elements from 0 to inputted integer. All elements containing a 1 will be replaced with "Beep!", elements containing a 2 will be replaced with "Boop!" and elements containing a 3 will be replaced with "Won't you be my neighbor?"}_
+_This application takes an integer and returns a sequence of elements from 0 to inputted integer. All elements containing a 1 will be replaced with "Beep!", elements containing a 2 will be replaced with "Boop!" and elements containing a 3 will be replaced with "Won't you be my neighbor?"_
 
 ## Setup/Installation Requirements
 
