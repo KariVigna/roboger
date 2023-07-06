@@ -3,13 +3,14 @@
 window.onload = function() {
     let form = document.querySelector("form");
     form.onsubmit = function(event) {
-        
+        event.preventDefault();
+
         let inputNum = document.getElementById("num-input").value;
         const result = beepBoop(inputNum);
-        document.createElement("p") = pElement;
-        pElement.innerText = result;
+        resultText = document.getElementById("result-text")
+        resultText.innerText = result;
         
-        event.preventDefault();
+        
     };
 };
 
@@ -25,16 +26,16 @@ function beepBoop(num){
 
     numbersArray.forEach(function(element){ 
         element = element.toString()
-        console.log(element.includes("3") === true);
+        console.log(element.includes("3") === true)
         if (element.includes("3") === true) {
             outputArray.push("Won't you be my neighbor?");
         } else if (element.includes("2") === true) {
-            outputArray.push("Boop")
+            outputArray.push("Boop");
         } else if (element.includes("1") === true) {
             outputArray.push("Beep");
         } else {
             outputArray.push(element);
         }
-    })
+    });
     return outputArray;
-}
+};
