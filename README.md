@@ -23,8 +23,27 @@ _This application takes an integer and returns a sequence of elements from 0 to 
 
 ## Known Bugs
 
-* _Does not return "0" with sequence of numbers._
-* _Only replaces first instance of 1._
+* _No curently known bugs_
+
+## Tests
+
+### Describe: beepBoop()
+
+   _Test: "It should return a list of numbers from 0 to the user's inputted number"_  
+   _Code: beepBoop("0");_  
+   _Expected Output: [0]_  
+
+   _Test: "It should replace numbers containing a "1" with "Beep"_  
+   _Code: beepBoop("1");_  
+   _Expected Output: [0, "Beep"]_  
+
+   _Test: "It should replace numbers containing "2" with "Boop"_  
+   _Code: beepBoop("2");_  
+   _Expected Output: [0, "Beep", "Boop"]_  
+
+   _Test: "It should replace numbers containing "3" with "Won't you be my neighbor?"_  
+   _Code: beepBoop("3");_  
+   _Expected Output: [0, "Beep", "Boop", "Won't you be my neighbor?"]_  
 
 ## License
 

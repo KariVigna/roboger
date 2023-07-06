@@ -9,8 +9,6 @@ window.onload = function() {
         const result = beepBoop(inputNum);
         resultText = document.getElementById("result-text")
         resultText.innerText = result;
-        
-        
     };
 };
 
